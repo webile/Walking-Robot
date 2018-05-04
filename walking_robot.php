@@ -4,7 +4,7 @@
    	$walking_string = strtoupper($ws);
 	$walking_array = str_split($walking_string);
 
-	foreach( $walking_array as $key => $value ){
+	foreach( $walking_array as $key => $value ){   
     	if( $value == 'W' ) { continue; }
       	if($d == 'EAST') {
             if( $value == 'L' ){
